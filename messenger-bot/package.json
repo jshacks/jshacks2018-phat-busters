@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/jshacks/jshacks2018-phat-busters",
   "author": "Phat Busters",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "micro": "^9.3.3"
+  }
 }
