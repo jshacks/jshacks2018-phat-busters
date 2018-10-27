@@ -1,0 +1,9 @@
+{
+  "name": "messenger-bot",
+  "version": "1.0.0",
+  "description": "Facebook Messenger Bot",
+  "main": "index.js",
+  "repository": "https://github.com/jshacks/jshacks2018-phat-busters",
+  "author": "Phat Busters",
+  "license": "MIT"
+}
