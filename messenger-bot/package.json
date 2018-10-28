@@ -6,8 +6,13 @@
   "repository": "https://github.com/jshacks/jshacks2018-phat-busters",
   "author": "Phat Busters",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
+    "axios": "^0.18.0",
     "dotenv": "^6.1.0",
-    "micro": "^9.3.3"
+    "express": "^4.16.4",
+    "node-wit": "^5.0.0"
   }
 }
