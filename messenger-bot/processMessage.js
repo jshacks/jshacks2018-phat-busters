@@ -10,7 +10,11 @@ const processMessage = async (event) => {
       return result;
     }
   } catch (error) {
-    console.log(`Wit.ai call error ${error}`)
+    console.log(`Wit.ai call error`)
+    throw new Error({
+      message: `Wit.ai call error`,
+      error,
+    })
   }
 }
 
